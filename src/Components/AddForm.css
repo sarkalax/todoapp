@@ -55,6 +55,7 @@ button.defaultBttn {
     border: none;
     width: fit-content;
     transition: all 0.3s ease-in-out;
+    letter-spacing: 1.5px;
     border-radius: calc(var(--borderRad) * 0.5);
     box-shadow: 2px 2px 10px var(--shadowColor);
     opacity: 0.8;
