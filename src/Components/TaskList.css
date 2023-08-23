@@ -1,0 +1,66 @@
+h3 {
+    position: relative;
+}
+.list h3::after, .allTasks h3::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left: -20%;
+    width: 90%;
+    height: 1px;
+    background: var(--darkColor);
+    border-radius: 5px;
+}
+.allTasks h3::after {
+    width: 50%;
+}
+.list {
+    padding: var(--padding);
+    overflow: hidden;
+}
+.list ul {
+    display: flex;
+    flex-direction: column;
+    height: calc(var(--i) * 10);
+    margin-top: var(--padding);
+    overflow-y: scroll;
+    cursor: pointer;
+}
+ul {
+    list-style-type: circle;
+}
+.checkIcon {
+    font-weight: bold;
+    background: none;
+    border: none;
+    margin-right: calc(var(--i) * 0.5);
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+li:hover .checkIcon {
+    font-size: 1.2rem;
+    color: var(--blue);
+    opacity: 1;
+}
+.list:nth-of-type(odd) {
+    box-shadow: -10px 10px 20px var(--shadowColor);
+}
+.list:nth-of-type(even) {
+    box-shadow: 10px 10px 20px var(--shadowColor);
+}
+.list:nth-of-type(1) {
+    grid-area: a;
+}
+.list:nth-of-type(2) {
+    grid-area: b;
+}
+.list:nth-of-type(3) {
+    grid-area: c;
+}
+.list:nth-of-type(4) {
+    grid-area: d;
+}
+
+
+
+
