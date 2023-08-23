@@ -1,12 +1,12 @@
 {
-  "homepage": "https://sarysx.github.io/to-do-app/build",
-  "name": "todo-list",
+  "homepage": "https://sarysx.github.io/to-do-app/",
+  "name": "zkouska-todo-list",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "gh-pages -b master -d build",
+  "deploy": "gh-pages -b master -d",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

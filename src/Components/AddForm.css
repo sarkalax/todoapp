@@ -21,7 +21,7 @@
     box-shadow: 5px 10px 20px var(--shadowColor), -5px 10px 20px var(--shadowColor);
 }
 .allTasks ul {
-    max-height: calc(var(--i) * 16);
+    height: calc(var(--i) * 16);
     overflow-y: scroll;
     margin-top: var(--padding);
 }
