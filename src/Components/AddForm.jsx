@@ -99,10 +99,17 @@ export function AddForm() {
                                 value={"other"}
                                 setSelectedList={setSelectedList}
                             />
+                            <RadioInput value={"none"}/>
                         </div>
                     </form>
                     <section className="allTasks">
-                        <h3>All</h3>
+                        <TaskList
+                            className="allTasks"
+                            tasks={tasks}
+                            deleteTask={deleteTask}
+                            headerTitle={"All"}
+                        />
+                        {/* <h3>All</h3>
                         <ul>
                             {tasks.map((task) => {
                                 const { title, id } = task;
@@ -116,7 +123,7 @@ export function AddForm() {
                                     </li>
                                 );
                             })}
-                        </ul>
+                        </ul> */}
                     </section>
                     <button
                         className="defaultBttn deleteAllBttn"

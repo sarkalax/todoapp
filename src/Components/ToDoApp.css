@@ -65,9 +65,12 @@ h2 {
     }
     .list:nth-of-type(odd),
     .list:nth-of-type(even) {
-        /* width: 100%; */
         box-shadow: 5px 10px 20px var(--shadowColor),
             -5px 10px 20px var(--shadowColor);
+    }
+    .list h3::after, .allTasks h3::after {
+        left: -20%;
+        width: 70%;
     }
 }
 @media screen and (min-width: 801px) {
