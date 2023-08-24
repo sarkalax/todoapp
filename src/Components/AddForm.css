@@ -66,4 +66,5 @@ button.defaultBttn:hover {
 }
 button.deleteAllBttn {
     margin: var(--i) auto 0;
+    z-index: 3;
 }

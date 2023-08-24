@@ -55,6 +55,8 @@ export function AddForm() {
         setOtherTasks((otherTasks) =>
             tasks.filter((task) => task.type === "other")
         );
+        
+        tasks.map(task => console.log(task.type))
     }, [tasks]);
 
     return (
@@ -99,31 +101,18 @@ export function AddForm() {
                                 value={"other"}
                                 setSelectedList={setSelectedList}
                             />
-                            <RadioInput value={"none"}/>
+                            <RadioInput 
+                                value={"none"}
+                                setSelectedList={setSelectedList}
+                            />
                         </div>
                     </form>
                     <section className="allTasks">
                         <TaskList
-                            className="allTasks"
                             tasks={tasks}
                             deleteTask={deleteTask}
                             headerTitle={"All"}
                         />
-                        {/* <h3>All</h3>
-                        <ul>
-                            {tasks.map((task) => {
-                                const { title, id } = task;
-
-                                return (
-                                    <li key={id} onClick={() => deleteTask(id)}>
-                                        {title}
-                                        <button className="checkIcon">
-                                            <FaCheck />
-                                        </button>
-                                    </li>
-                                );
-                            })}
-                        </ul> */}
                     </section>
                     <button
                         className="defaultBttn deleteAllBttn"
