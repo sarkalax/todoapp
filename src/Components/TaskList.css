@@ -17,6 +17,7 @@ h3 {
 .list {
     padding: var(--padding);
     overflow: hidden;
+    padding: var(--padding) calc(var(--padding)*2);
 }
 .list ul {
     display: flex;

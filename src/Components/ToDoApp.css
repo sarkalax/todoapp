@@ -61,7 +61,7 @@ h2 {
     }
     .list,
     .taskForm {
-        padding: var(--padding);
+        padding: var(--padding) calc(var(--padding)*2);
     }
     .list:nth-of-type(odd),
     .list:nth-of-type(even) {
