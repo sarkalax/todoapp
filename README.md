@@ -1,3 +1,3 @@
-# todoapp
+# TODOAPP
 
-(open)[https://sarysx.github.io/todoapp/]
+[open](https://sarysx.github.io/todoapp/)
