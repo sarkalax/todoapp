@@ -55,8 +55,6 @@ export function AddForm() {
         setOtherTasks((otherTasks) =>
             tasks.filter((task) => task.type === "other")
         );
-        
-        tasks.map(task => console.log(task.type))
     }, [tasks]);
 
     return (
