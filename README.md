@@ -2,5 +2,12 @@
 
 [open](https://sarysx.github.io/todoapp/)
 
-React,responsiv design, návrh ve Figmě, background PS
+React,Vite, responsiv design, návrh ve Figmě, background PS
+
+funkce:
+* přidání úkolu do seznamu úkolů
+* možnost přidat do seznamu podle zařazení
+* maže úkol při clicku na něj
+* ukládá úkoly do local storage
+* responsiv design
 
