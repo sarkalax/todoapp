@@ -1,6 +1,6 @@
 # TODOAPP
 
-[open](https://sarysx.github.io/todoapp/)
+[open](https://sarkalax.github.io/todoapp/)
 
 React,Vite, responsiv design, návrh ve Figmě, background PS
 
